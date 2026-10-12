@@ -13,10 +13,15 @@
             Console.Write("Введите второе число: ");
             int b = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Сумма: {a + b}");
-            Console.WriteLine($"Разность: {a - b}");
-            Console.WriteLine($"Произведение: {a * b}");
-            Console.WriteLine($"Среднее арифметическое: {(a + b) / 2}");
+            int sum = a + b;
+            int difference = a - b;
+            int product = a * b;
+            double average = (a + b) / 2.0;
+
+            Console.WriteLine("Сумма: " + sum);
+            Console.WriteLine("Разность: " + difference);
+            Console.WriteLine("Произведение: " + product);
+            Console.WriteLine("Среднее арифметическое: " + average);
         }
     }
 }
