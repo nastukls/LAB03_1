@@ -17,8 +17,9 @@
             int difference = a - b;
             int product = a * b;
             double average = (a + b) / 2.0;
+            // ygftyftyfty
 
-            Console.WriteLine("Сумма: " + sum);
+            Console.WriteLine($"Сумма: {sum}");
             Console.WriteLine("Разность: " + difference);
             Console.WriteLine("Произведение: " + product);
             Console.WriteLine("Среднее арифметическое: " + average);
